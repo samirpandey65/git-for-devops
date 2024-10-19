@@ -1,11 +1,8 @@
-echo "# git-for-devops" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/samirpandey65/git-for-devops.git
-git push -u origin main
+# Create a new repository on the command line
 
-git remote add origin https://github.com/samirpandey65/git-for-devops.git
-git branch -M main
-git push -u origin main
+1. **Create a README.md file**
+
+   This command creates a `README.md` file with the content `# git-for-devops`.
+
+   ```bash
+   echo "# git-for-devops" >> README.md
